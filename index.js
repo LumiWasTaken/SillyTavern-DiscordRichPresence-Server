@@ -2,14 +2,7 @@
 (function (__dirname){(function (){
 const MODULE = '[SillyTavern-DiscordRichPresence-Server]';
 const states = [
-    'Constructing a waifu army',
-    'Spreading the silliness',
     'Mass producing catgirls',
-    'Roleplaying with a toaster',
-    'Caffeinated and chaotic',
-    'Existential AI therapy',
-    'Seraphina my beloved',
-    // Add more states here
 ];
 
 let client;
