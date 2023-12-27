@@ -91,16 +91,6 @@ async function init(router) {
             await client.setActivity({
                 details: config.Details,
                 state: state,
-                buttons: [
-                    {
-                        label: config.Button1,
-                        url: config.Url1,
-                    },
-                    {
-                        label: config.Button2,
-                        url: config.Url2,
-                    },
-                ],
                 largeImageKey: config.LargeImage,
                 largeImageText: config.LargeImageText,
             }, process.pid);
